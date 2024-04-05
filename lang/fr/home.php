@@ -122,4 +122,29 @@ return [
     'electronic_cable_delivery_extract' => "Extrait de livraison de câble électronique",
     'filter_package_delivery_extract' => "Extrait de livraison package de filtres",
     'sign_production' => "Production panonceau",
+    'extract_agricultural_production' => "Extrait production agricole",
+    'our_team' => "Notre équipe",
+    'our_professional' => "Notre équipe",
+    'team_member' => "professionnelle",
+
+    'our_team_is_committed_to_providing' => "Notre équipe est engagée à vous offrir le meilleur service possible.",
+    'we_are_passionate_about_our_work' => "Nous sommes passionnés par notre travail et nous nous efforçons de dépasser vos attentes.",
+
+    'president' => "Président",
+    'general_manager' => "Directeur Général",
+    'administrator' => "Administrateur",
+    'director_of_operations' => "Directeur des Opérations",
+    'secretary' => "Secrétaire",
+    'meet_the_whole_team' => "Rencontrez toute l'équipe",
+
+    'contact_information' => "Coordonnées",
+    'get_in_touch' => "Contactez-nous",
+    'first_name' => "Prénom",
+    'last_name' => "Nom",
+    'phone_number' => "Numéro de téléphone",
+    'your_message' => "Votre Message",
+    'send_message' => "Envoyer le message",
+
+    'please_enter_a_valid_first_name' => "Veuillez entrer un prénom valide.",
+    'please_enter_a_valid_last_name' => "Veuillez entrer un nom valide.",
 ];

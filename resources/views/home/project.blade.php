@@ -39,7 +39,19 @@
               </div><!-- .cs-slide -->
               <div class="cs-slide">
                 <a href="portfolio-details.html" class="cs-portfolio cs-style3">
+                  <div class="cs-portfolio_img"><img src="{{ asset('assets/img/design-agency/projet8.png')}}" alt=""></div>
+                  <h2 class="cs-portfolio_title">{{ __('home.extract_from_delivery_of_electrical_cables')}} </h2>
+                </a>
+              </div><!-- .cs-slide -->
+              <div class="cs-slide">
+                <a href="portfolio-details.html" class="cs-portfolio cs-style3">
                   <div class="cs-portfolio_img"><img src="{{ asset('assets/img/design-agency/projet3.png')}}" alt=""></div>
+                  <h2 class="cs-portfolio_title">{{ __('home.filter_package_delivery_extract')}} </h2>
+                </a>
+              </div><!-- .cs-slide -->
+              <div class="cs-slide">
+                <a href="portfolio-details.html" class="cs-portfolio cs-style3">
+                  <div class="cs-portfolio_img"><img src="{{ asset('assets/img/design-agency/projet6.png')}}" alt=""></div>
                   <h2 class="cs-portfolio_title">{{ __('home.filter_package_delivery_extract')}} </h2>
                 </a>
               </div><!-- .cs-slide -->
@@ -53,6 +65,12 @@
                 <a href="portfolio-details.html" class="cs-portfolio cs-style3">
                   <div class="cs-portfolio_img"><img src="{{ asset('assets/img/design-agency/projet5.png')}}" alt=""></div>
                   <h2 class="cs-portfolio_title">{{ __('home.sign_production')}}</h2>
+                </a>
+              </div><!-- .cs-slide -->
+              <div class="cs-slide">
+                <a href="portfolio-details.html" class="cs-portfolio cs-style3">
+                  <div class="cs-portfolio_img"><img src="{{ asset('assets/img/design-agency/projet7.png')}}" alt=""></div>
+                  <h2 class="cs-portfolio_title">{{ __('home.extract_agricultural_production')}}</h2>
                 </a>
               </div><!-- .cs-slide -->
             </div>

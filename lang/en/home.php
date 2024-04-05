@@ -122,4 +122,29 @@ return [
     'electronic_cable_delivery_extract' => "Electronic cable delivery extract",
     'filter_package_delivery_extract' => "Filter package delivery extract",
     'sign_production' => "Sign production",
+    'extract_agricultural_production' => "Extract agricultural production",
+    'our_team' => "Our team",
+    'our_professional' => "Our professional",
+    'team_member' => "team member",
+
+    'our_team_is_committed_to_providing' => "Our team is committed to providing you with the best possible service.",
+    'we_are_passionate_about_our_work' => "We are passionate about our work and strive to exceed your expectations.",
+
+    'president' => "President",
+    'general_manager' => "General manager",
+    'administrator' => "Administrator",
+    'director_of_operations' => "Director of Operations",
+    'secretary' => "Secretary",
+    'meet_the_whole_team' => "Meet the whole team",
+
+    'contact_information' => "Contact Information",
+    'get_in_touch' => "Get In Touch",
+    'first_name' => "First name",
+    'last_name' => "Last name",
+    'phone_number' => "Phone number",
+    'your_message' => "Your Message",
+    'send_message' => "Send Message",
+
+    'please_enter_a_valid_first_name' => "Please enter a valid first name.",
+    'please_enter_a_valid_last_name' => "Please enter a valid last name.",
 ];

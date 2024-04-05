@@ -1,5 +1,5 @@
 <!-- Start About -->
-<div class="cs-bg" data-src="../assets/img/design-agency/icon-box-bg.jpg">
+<div class="cs-bg" data-src="{{ asset('assets/img/design-agency/icon-box-bg.jpg') }}">
   <div class="cs-height_140 cs-height_lg_80"></div>
   <div class="container wow fadeIn" data-wow-duration="1s" data-wow-delay="0.2s">
     <div class="cs-section_heading cs-style2 cs-size2">

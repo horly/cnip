@@ -21,6 +21,18 @@ return [
     'phone_number' => env('PHONE_NUMBER', ''),
     'address_office' => env('ADDRESS_OFFICE', ''),
 
+
+    'email' => env('MAIL_FROM_ADDRESS', ''),
+    'mail_username' => env('MAIL_USERNAME', ''),
+    'mail_password' => env('MAIL_PASSWORD', ''),
+    'mail_port' => env('MAIL_PORT', ''),
+    'mail_host' => env('MAIL_HOST', ''),
+
+    'facebook_link' => env('FACEBOOK_LINK', ''),
+    'instagram_link' => env('INSTAGRAM_LINK', ''),
+    'twitter_link' => env('TWITTER_LINK', ''),
+    'linkedin_link' => env('LINKEDIN_LINK', ''),
+
     /*
     |--------------------------------------------------------------------------
     | Application Environment

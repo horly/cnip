@@ -1,5 +1,5 @@
 <!-- Footer Section -->
-<footer class="cs-footer cs-style3 cs-bg" data-src="../assets/img/design-agency/footer-bg.jpg">
+<footer class="cs-footer cs-style3 cs-bg" data-src="{{ asset('assets/img/design-agency/footer-bg.jpg') }}">
     <div class="cs-footer_bg"></div>
     <div class="container">
       <div class="cs-height_115 cs-height_lg_75"></div>
@@ -14,7 +14,7 @@
             <ul>
               <li><i class="fas fa-envelope-open"></i>{{ config('app.email') }}</li>
               <li><i class="fas fa-address-book"></i>{{ config('app.phone_number') }}</li>
-              <li><i class="fas fa-map-marker-alt"></i>{{ config('app.address_office') }}</li>
+              <li><i class="fas fa-map-marker-alt"></i>{{ config('app.address_office') }} <br>Kinshasa-Gombe</li>
             </ul>
           </div>
         </div><!-- .col -->
@@ -48,11 +48,13 @@
           </div>
           <div class="cs-footer_item">
             <div class="cs-social_btns cs-style1">
-              <a href="#"><i class="fab fa-facebook-f"></i></a>
-              <a href="#"><i class="fab fa-twitter"></i></a>
-              <a href="#"><i class="fab fa-instagram"></i></a>
-              <a href="#"><i class="fab fa-pinterest-p"></i></a>
+              <a href="{{ config('app.facebook_link') }}"><i class="fab fa-facebook-f"></i></a>
+              <a href="{{ config('app.instagram_link') }}"><i class="fab fa-instagram"></i></a>
+              <a href="{{ config('app.twitter_link') }}"><i class="fab fa-twitter"></i></a>
+              <a href="{{ config('app.linkedin_link') }}"><i class="fab fa-linkedin-in"></i></a>
             </div>
+            <br>
+            <div>Copyright &copy; {{ date('Y') }}</div>
           </div>
         </div><!-- .col -->
       </div>

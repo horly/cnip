@@ -1,5 +1,5 @@
 <!-- Start Blog Post -->
-<div data-src="../assets/img/design-agency/blog-bg.jpg">
+<div data-src="{{ asset('assets/img/design-agency/blog-bg.jpg') }}">
     <div class="cs-height_135 cs-height_lg_75"></div>
     <div class="container wow fadeIn" data-wow-duration="1s" data-wow-delay="0.2s">
       <div class="cs-section_heading cs-style2 cs-size2">

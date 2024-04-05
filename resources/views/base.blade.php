@@ -42,5 +42,6 @@
         <script src="{{ asset('assets/js/plugins/jquery.counter.min.js') }}"></script>
         <script src="{{ asset('assets/js/plugins/wow.min.js') }}"></script>
         <script src="{{ asset('assets/js/main.js') }}"></script>
+        <script src="{{ asset('assets/js/custom.js') }}"></script>
     </body>
 </html>

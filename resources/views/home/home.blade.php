@@ -28,7 +28,7 @@
       </div>
     </div>
     <div class="cs-hero_blur_shape wow fadeIn" data-wow-duration="1s" data-wow-delay="0.4s">
-      <div class=""><img src="../assets/img/design-agency/hero-blur-shape.png" alt=""></div>
+      <div class=""><img src="{{ asset('assets/img/design-agency/hero-blur-shape.png') }}" alt=""></div>
     </div>
     <div class="cs-hero_img">
       <div><img src="{{ __('assets/img/design-agency/hero-img2.png') }}" width="800" alt=""></div>
@@ -47,6 +47,14 @@
   {{-- Start partner --}}
    @include('home.project')
   {{-- End partner --}}
+
+  {{-- Start team --}}
+  @include('home.team-member')
+  {{-- End team --}}
+
+  {{-- Start contact --}}
+  @include('home.contact-form')
+  {{-- End contact --}}
 
 
 
