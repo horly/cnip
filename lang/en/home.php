@@ -147,4 +147,11 @@ return [
 
     'please_enter_a_valid_first_name' => "Please enter a valid first name.",
     'please_enter_a_valid_last_name' => "Please enter a valid last name.",
+    'please_enter_a_valid_phone_number' => "Please enter a valid phone number.",
+    'please_enter_a_valid_email_address' => "Please enter a valid email address.",
+    'please_enter_your_message' => "Please enter your message.",
+    'sending' => "Sending",
+    'message_sent_successfully' => "Message sent successfully.",
+    'the_message_was_not_sent' => "The message was not sent.",
+    'information' => "Information",
 ];

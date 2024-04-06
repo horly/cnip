@@ -34,7 +34,7 @@ class Email
     }
 
     //pour l'envoie du mail
-    public function sendEmailContact($subject, $emailUser, $name, $message, $isHtml)
+    public function sendEmail($subject, $emailUser, $name, $message, $isHtml)
     {
         $this->mail->Subject = $subject;
         $this->mail->setFrom($emailUser, $name); //from contact user email
@@ -42,16 +42,36 @@ class Email
         $this->mail->addAddress(config('app.email')); //to entreprise email
         $this->mail->IsHTML($isHtml);
         $this->mail->Body = $message;
-        $this->mail->send();
+
+        return $this->mail->send(); //true or false
 
         //ici c'est pour le teste et voir les erreurs
-        /*if(!$mail->send())
+        /*if(!$this->mail->send())
         {
-            //return "error : " . $this->$mail->ErrorInfo;
+            return "error : " . $this->mail->ErrorInfo;
         }
         else
         {
             return "success";
         }*/
+    }
+
+    public function sendContactMessage($fullname, $email_addr, $phoneNumber, $message_text)
+    {
+        $email = $email_addr;
+        $name = $fullname;
+        $phone_number = $phoneNumber;
+        $message = $message_text;
+
+        $subject = __('home.information');
+        $messageHtml = view('email.message-email')
+                    ->with([
+                        'name' => $name,
+                        'message' => $message,
+                        'phone_number' => $phone_number,
+                        'email' => $email
+            ]);
+
+        return $this->sendEmail($subject, $email, $name, $messageHtml, true);
     }
 }

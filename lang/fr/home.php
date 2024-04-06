@@ -147,4 +147,11 @@ return [
 
     'please_enter_a_valid_first_name' => "Veuillez entrer un prénom valide.",
     'please_enter_a_valid_last_name' => "Veuillez entrer un nom valide.",
+    'please_enter_a_valid_phone_number' => "Veuillez saisir un numéro de téléphone valide.",
+    'please_enter_a_valid_email_address' => "Veuillez saisir une adresse email valide.",
+    'please_enter_your_message' => "Veuillez saisir votre message.",
+    'sending' => "Envoi en cours",
+    'message_sent_successfully' => "Message envoyé avec succès.",
+    'the_message_was_not_sent' => "Le message n'a pas été envoyé.",
+    'information' => "Informations",
 ];
