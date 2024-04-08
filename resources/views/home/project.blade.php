@@ -14,7 +14,7 @@
         </b></h2>
         <div class="cs-section_text">{{ __('home.we_are_driven_by_a_passion') }} </div>
         <div class="cs-height_30 cs-height_lg_30"></div>
-        <a href="#" class="cs-btn cs-style6 cs-btn_lg cs-rounded text-uppercase cs-medium cs-accent_border cs-accent_bg cs-white cs-accent_10_bg_hover cs-accent_40_border_hover">
+        <a href="{{ route('app_projects') }}" class="cs-btn cs-style6 cs-btn_lg cs-rounded text-uppercase cs-medium cs-accent_border cs-accent_bg cs-white cs-accent_10_bg_hover cs-accent_40_border_hover">
           <span class="cs-btn_text">{{ __('home.view_all') }} </span>
         </a>
       </div>
@@ -25,54 +25,16 @@
         <div class="cs-slider cs-style2 cs-gap-40">
           <div class="cs-slider_container" data-autoplay="0" data-loop="1" data-speed="600" data-center="0" data-fade-slide="0"  data-slides-per-view="1" data-variable-width="1">
             <div class="cs-slider_wrapper">
-              <div class="cs-slide">
-                <a href="portfolio-details.html" class="cs-portfolio cs-style3">
-                  <div class="cs-portfolio_img"><img src="{{ asset('assets/img/design-agency/projet1.png')}}" alt=""></div>
-                  <h2 class="cs-portfolio_title">{{ __('home.official_delivery_of_a_sample')}} </h2>
-                </a>
-              </div><!-- .cs-slide -->
-              <div class="cs-slide">
-                <a href="portfolio-details.html" class="cs-portfolio cs-style3">
-                  <div class="cs-portfolio_img"><img src="{{ asset('assets/img/design-agency/projet2.png')}}" alt=""></div>
-                  <h2 class="cs-portfolio_title">{{ __('home.extract_from_delivery_of_electrical_cables') }} </h2>
-                </a>
-              </div><!-- .cs-slide -->
-              <div class="cs-slide">
-                <a href="portfolio-details.html" class="cs-portfolio cs-style3">
-                  <div class="cs-portfolio_img"><img src="{{ asset('assets/img/design-agency/projet8.png')}}" alt=""></div>
-                  <h2 class="cs-portfolio_title">{{ __('home.extract_from_delivery_of_electrical_cables')}} </h2>
-                </a>
-              </div><!-- .cs-slide -->
-              <div class="cs-slide">
-                <a href="portfolio-details.html" class="cs-portfolio cs-style3">
-                  <div class="cs-portfolio_img"><img src="{{ asset('assets/img/design-agency/projet3.png')}}" alt=""></div>
-                  <h2 class="cs-portfolio_title">{{ __('home.filter_package_delivery_extract')}} </h2>
-                </a>
-              </div><!-- .cs-slide -->
-              <div class="cs-slide">
-                <a href="portfolio-details.html" class="cs-portfolio cs-style3">
-                  <div class="cs-portfolio_img"><img src="{{ asset('assets/img/design-agency/projet6.png')}}" alt=""></div>
-                  <h2 class="cs-portfolio_title">{{ __('home.filter_package_delivery_extract')}} </h2>
-                </a>
-              </div><!-- .cs-slide -->
-              <div class="cs-slide">
-                <a href="portfolio-details.html" class="cs-portfolio cs-style3">
-                  <div class="cs-portfolio_img"><img src="{{ asset('assets/img/design-agency/projet4.png')}}" alt=""></div>
-                  <h2 class="cs-portfolio_title">{{ __('home.electronic_cable_delivery_extract')}}</h2>
-                </a>
-              </div><!-- .cs-slide -->
-              <div class="cs-slide">
-                <a href="portfolio-details.html" class="cs-portfolio cs-style3">
-                  <div class="cs-portfolio_img"><img src="{{ asset('assets/img/design-agency/projet5.png')}}" alt=""></div>
-                  <h2 class="cs-portfolio_title">{{ __('home.sign_production')}}</h2>
-                </a>
-              </div><!-- .cs-slide -->
-              <div class="cs-slide">
-                <a href="portfolio-details.html" class="cs-portfolio cs-style3">
-                  <div class="cs-portfolio_img"><img src="{{ asset('assets/img/design-agency/projet7.png')}}" alt=""></div>
-                  <h2 class="cs-portfolio_title">{{ __('home.extract_agricultural_production')}}</h2>
-                </a>
-              </div><!-- .cs-slide -->
+
+              @foreach ($projets as $projet)
+                <div class="cs-slide">
+                  <a href="{{ route('app_projects') }}" class="cs-portfolio cs-style3">
+                      <div class="cs-portfolio_img"><img class="border" src="{{ asset('assets/img/design-agency')}}/{{ $projet->img_name }}.png" alt=""></div>
+                      <h2 class="cs-portfolio_title">{{ __('home.' . $projet->description )}}</h2>
+                  </a>
+                </div>  
+              @endforeach
+
             </div>
           </div><!-- .cs-slider_container -->
           <div class="cs-pagination cs-style1 cs-accent_color cs-hidden_desktop"></div>

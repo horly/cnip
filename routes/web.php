@@ -31,6 +31,8 @@ Route::controller(HomeController::class)->group(function(){
     Route::get('/', 'home')->name('app_home');
     Route::post('/send-message', 'sendMessage')->name('app_send_message');
     Route::get('/about', 'about')->name('app_about');
+    Route::get('/projects', 'projects')->name('app_projects');
+    Route::get('/team', 'team')->name('app_team');
 
     Route::prefix('sectors')->group(function(){
         Route::get('/agriculture', 'agriculture')->name('app_agriculture');

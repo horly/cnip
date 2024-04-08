@@ -35,7 +35,9 @@
           <div class="cs-footer_item widget_nav_menu">
             <h2 class="cs-widget_title">{{ __('home.company') }}</h2>
             <ul class="menu">
-                <li><a href="{{ route('app_about') }}">{{ __('home.about_us') }}</a></li>
+              <li><a href="{{ route('app_about') }}">{{ __('home.about_us') }}</a></li>
+              <li><a href="{{ route('app_projects') }}">{{ __('home.projects') }}</a></li>
+              <li><a href="{{ route('app_team') }}">{{ __('home.team') }}</a></li>
               <li><a href="#">{{ __('home.privacy_policy') }}</a></li>
               <li><a href="#">{{ __('home.terms') }}</a></li>
             </ul>

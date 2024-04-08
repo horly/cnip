@@ -12,7 +12,11 @@
                 <li class="@if (Request::route()->getName() == 'app_about') current-menu-item @endif"><a href="{{ route('app_about') }}">{{ __('home.about') }}</a></li>
                 <li class="menu-item-has-children 
                   @if (Request::route()->getName() == 'app_agriculture' ||
-                        Request::route()->getName() == 'app_transport')  
+                        Request::route()->getName() == 'app_transport' ||
+                        Request::route()->getName() == 'app_immobilier' ||
+                        Request::route()->getName() == 'app_tourisme' ||
+                        Request::route()->getName() == 'app_general_trade' ||
+                        Request::route()->getName() == 'app_it') 
                     current-menu-item @endif
                   "><a href="#">{{ __('home.sectors') }}</a>
                   <ul>
@@ -24,6 +28,8 @@
                     <li><a href="{{ route('app_it') }}">{{ __('home.information_technology') }}</a></li>
                   </ul>
                 </li>
+                <li class="@if (Request::route()->getName() == 'app_projects') current-menu-item @endif"><a href="{{ route('app_projects') }}">{{ __('home.projects') }}</a></li>
+                <li class="@if (Request::route()->getName() == 'app_team') current-menu-item @endif"><a href="{{ route('app_team') }}">{{ __('home.team') }}</a></li>
               </ul>
             </div>
           </div>

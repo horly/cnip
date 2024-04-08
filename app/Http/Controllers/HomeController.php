@@ -2,8 +2,10 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Project;
 use App\Services\Email\Email;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\DB;
 
 class HomeController extends Controller
 {
@@ -17,7 +19,8 @@ class HomeController extends Controller
 
     public function home()
     {
-        return view('home.home');
+        $projets = DB::table('projects')->get();
+        return view('home.home', compact('projets'));
     }
 
     public function agriculture()
@@ -78,5 +81,17 @@ class HomeController extends Controller
     public function  about()
     {
         return view('home.about');
+    }
+
+    public function projects()
+    {
+        $projets = Project::paginate(6);
+
+        return view('home.projects', compact('projets'));
+    }
+
+    public function team()
+    {
+        return view('home.team');
     }
 }
