@@ -30,6 +30,7 @@ Route::get('/lang/{lang}',
 Route::controller(HomeController::class)->group(function(){
     Route::get('/', 'home')->name('app_home');
     Route::post('/send-message', 'sendMessage')->name('app_send_message');
+    Route::get('/about', 'about')->name('app_about');
 
     Route::prefix('sectors')->group(function(){
         Route::get('/agriculture', 'agriculture')->name('app_agriculture');
@@ -37,6 +38,7 @@ Route::controller(HomeController::class)->group(function(){
         Route::get('/immobilier', 'immobilier')->name('app_immobilier');
         Route::get('/tourisme', 'tourisme')->name('app_tourisme'); 
         Route::get('/general_trade', 'general_trade')->name('app_general_trade');
+        Route::get('/it', 'iT')->name('app_it');
     });
 });
 

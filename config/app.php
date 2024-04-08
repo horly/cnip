@@ -17,6 +17,8 @@ return [
     */
 
     'name' => env('APP_NAME', ''),
+    'old_name' => env('OLD_APP_NAME', ''),
+    'founder' => env('FOUNDER', ''),
     'email' => env('MAIL_FROM_ADDRESS', ''),
     'phone_number' => env('PHONE_NUMBER', ''),
     'address_office' => env('ADDRESS_OFFICE', ''),

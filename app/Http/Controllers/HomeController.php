@@ -69,4 +69,14 @@ class HomeController extends Controller
             ]);
         }
     }
+
+    public function iT()
+    {
+        return view('activity.information_technologie');
+    }
+
+    public function  about()
+    {
+        return view('home.about');
+    }
 }

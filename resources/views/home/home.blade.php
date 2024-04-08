@@ -17,7 +17,7 @@
           </svg>            
         </b> <br/>{{ __('home.sustainable') }} <br/><b>{{ __('home.and_prosperous_future') }}.</b></h1>
         <div class="cs-hero_btns">
-          <a href="#" class="cs-btn cs-style6 cs-btn_lg cs-rounded text-uppercase cs-medium cs-accent_border cs-accent_bg cs-white cs-accent_10_bg_hover cs-accent_40_border_hover">
+          <a href="{{ route('app_about') }}" class="cs-btn cs-style6 cs-btn_lg cs-rounded text-uppercase cs-medium cs-accent_border cs-accent_bg cs-white cs-accent_10_bg_hover cs-accent_40_border_hover">
             <span class="cs-btn_text">{{ __('home.about_us') }}</span>
           </a>
           <svg width="82" height="113" viewBox="0 0 82 113" fill="none" xmlns="http://www.w3.org/2000/svg" class="cs-accent_color_2">

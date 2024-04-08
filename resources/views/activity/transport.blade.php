@@ -1,5 +1,5 @@
 @extends('base')
-@section('title', __('home.agriculture'))
+@section('title', __('home.transportation'))
 @section('content')
 
     @include('navbar.navbar')

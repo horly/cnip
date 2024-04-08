@@ -9,7 +9,7 @@
             <div class="cs-nav">
               <ul class="cs-nav_list">
                 <li class="@if (Request::route()->getName() == 'app_home') current-menu-item @endif"><a href="{{ route('app_home') }}">{{ __('home.home') }}</a></li>
-                <li><a href="#">{{ __('home.about') }}</a></li>
+                <li class="@if (Request::route()->getName() == 'app_about') current-menu-item @endif"><a href="{{ route('app_about') }}">{{ __('home.about') }}</a></li>
                 <li class="menu-item-has-children 
                   @if (Request::route()->getName() == 'app_agriculture' ||
                         Request::route()->getName() == 'app_transport')  
@@ -21,6 +21,7 @@
                     <li><a href="{{ route('app_immobilier') }}">{{ __('home.real_estate') }}</a></li>
                     <li><a href="{{ route('app_tourisme') }}">{{ __('home.travel_and_tourism') }}</a></li>
                     <li><a href="{{ route('app_general_trade') }}">{{ __('home.general_trade') }}</a></li>
+                    <li><a href="{{ route('app_it') }}">{{ __('home.information_technology') }}</a></li>
                   </ul>
                 </li>
               </ul>

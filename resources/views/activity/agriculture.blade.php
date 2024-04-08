@@ -18,13 +18,13 @@
 
                   <h4 class="m-0 cs-bold">{{ __('home.products_and_services') }} </h4>
 
-                  <div>{{ __('home.we_offer_a_wide_range_of_agricultural_products_including')}} </div>
+                  <div>{{ __('home.in_the_agricultural_sector_we_offer')}} :</div>
                   <ul>
-                    <li><span class="cs-medium cs-accent_color">{{ __('home.fresh_fruits_and_vegetables') }} </span></li>
-                    <li><span class="cs-medium cs-accent_color">{{ __('home.dairy_products') }} </span></li>
-                    <li><span class="cs-medium cs-accent_color">{{ __('home.meats') }} </span></li>
-                    <li><span class="cs-medium cs-accent_color">{{ __('home.cereals_products') }} </span></li>
-                    <li><span class="cs-medium cs-accent_color">{{ __('home.plants_and_flowers') }} </span></li>
+                    <li><span class="cs-medium cs-accent_color">{{ __('home.development_of_agricultural_and_support_projects') }} </span></li>
+                    <li><span class="cs-medium cs-accent_color">{{ __('home.tractor_rental') }} </span></li>
+                    <li><span class="cs-medium cs-accent_color">{{ __('home.sale_of_parts_and_accessories_for_agriculture') }} </span></li>
+                    <li><span class="cs-medium cs-accent_color">{{ __('home.wholesale_sale_of_agricultural_inputs') }} </span></li>
+                    <li><span class="cs-medium cs-accent_color">{{ __('home.sales_and_assistance_in_the_mechienery') }} </span></li>
                   </ul>
 
                   <div>{{ __('home.we_also_offer_a_variety_of_services_such_as') }}</div>
@@ -41,6 +41,12 @@
                 </div>
             </div>
         </div>
+    </div>
+
+    <br>
+    
+    <div class="container">
+      <img src="{{ asset('assets/img/design-agency/agri-tractor.jpg') }}" class="img-fluid" alt="...">
     </div>
 
     <div class="cs-height_130 cs-height_lg_70"></div>

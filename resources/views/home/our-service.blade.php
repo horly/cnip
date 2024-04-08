@@ -102,6 +102,23 @@
         </a>
         <div class="cs-height_30 cs-height_lg_30"></div>
       </div><!-- .col -->
+      <div class="col-lg-4 wow fadeIn" data-wow-duration="1s" data-wow-delay="0.5s">
+        <a href="{{ route('app_it') }}" class="cs-icon_box cs-style6 cs-transition_3">
+          <div class="cs-icon_box_in">
+            <div class="cs-icon_box_icon cs-center cs-transition_4" data-src="{{ asset('assets/img/design-agency/iconbox-shape1.svg') }}">
+              <i class="fas fa-laptop text-white fa-2x"></i>                  
+            </div>
+            <h2 class="cs-icon_box_title cs-semi_bold cs-transition_3">{{ __('home.information_technology') }}</h2>
+            <div class="cs-icon_box_subtitle cs-transition_3">{{ __('home.we_design_and_develop_software') }} </div>
+          </div>
+          <div class="cs-icon_box_shape cs-accent_color">
+            <svg class="cs-transition_3" xmlns="http://www.w3.org/2000/svg"  opacity="0.051" xmlns:xlink="http://www.w3.org/1999/xlink" width="247px" height="257px">
+              <path fill-rule="evenodd" fill="currentColor" d="M0.717,256.609 C0.717,256.609 7.824,164.313 102.262,127.457 C196.699,90.601 230.049,0.643 230.049,0.643 L246.891,241.481 L0.717,256.609 Z"/>
+            </svg>
+          </div>
+        </a>
+        <div class="cs-height_30 cs-height_lg_30"></div>
+      </div><!-- .col -->
     </div>
   </div>
   <div class="cs-height_110 cs-height_lg_50"></div>

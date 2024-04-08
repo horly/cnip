@@ -27,6 +27,7 @@
               <li><a href="{{ route('app_immobilier') }}">{{ __('home.real_estate') }}</a></li>
               <li><a href="{{ route('app_tourisme') }}">{{ __('home.travel_and_tourism') }}</a></li>
               <li><a href="{{ route('app_general_trade') }}">{{ __('home.general_trade') }}</a></li>
+              <li><a href="{{ route('app_it') }}">{{ __('home.information_technology') }}</a></li>
             </ul>
           </div>
         </div><!-- .col -->
@@ -34,7 +35,7 @@
           <div class="cs-footer_item widget_nav_menu">
             <h2 class="cs-widget_title">{{ __('home.company') }}</h2>
             <ul class="menu">
-                <li><a href="#">{{ __('home.about_us') }}</a></li>
+                <li><a href="{{ route('app_about') }}">{{ __('home.about_us') }}</a></li>
               <li><a href="#">{{ __('home.privacy_policy') }}</a></li>
               <li><a href="#">{{ __('home.terms') }}</a></li>
             </ul>

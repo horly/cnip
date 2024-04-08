@@ -1,5 +1,5 @@
 @extends('base')
-@section('title', __('home.agriculture'))
+@section('title', __('home.general_trade'))
 @section('content')
 
     @include('navbar.navbar')
@@ -24,7 +24,10 @@
                     <li><span class="cs-medium cs-accent_color">{{ __('home.distribution_and_wholesale') }} </span></li>
                     <li><span class="cs-medium cs-accent_color">{{ __('home.international_trading_and_representation') }} </span></li>
                     <li><span class="cs-medium cs-accent_color">{{ __('home.support_for_administrative_procedures') }} </span></li>
-                    <li><span class="cs-medium cs-accent_color">{{ __('home.logistics_and_transport_services') }} </span></li>
+                    <li><span class="cs-medium cs-accent_color">{{ __('home.logistics_and_transport_services') }} </span></li> 
+                    <li><span class="cs-medium cs-accent_color">{{ __('home.delivery_of_filters') }} </span></li> 
+                    <li><span class="cs-medium cs-accent_color">{{ __('home.electrical_equipment') }} </span></li> 
+                    <li><span class="cs-medium cs-accent_color">{{ __('home.tires_for_all_types_of_vehicles') }} </span></li>
                   </ul>
 
                   <h4 class="m-0 cs-bold">{{ __('home.customer_base') }} :</h4>
@@ -47,6 +50,17 @@
                     Your browser does not support the video tag.
                 </video>
             </div>
+
+            <br>
+
+            <h3>{{ __('home.traffic_signs_and_plaques') }} </h3>
+            <img class="border" src="{{ asset('assets/img/design-agency/plaque.jpg') }}" class="img-fluid" alt="...">
+
+            <br>
+            <br>
+            <h3>{{ __('home.cables_filters_tires') }} </h3>
+            <img class="border" src="{{ asset('assets/img/design-agency/pneu-cable.jpg') }}" class="img-fluid" alt="...">
+
         </div>
     </div>
 

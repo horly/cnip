@@ -38,7 +38,7 @@
             --}}
             </div>
             <div class="cs-member_info">
-                <h2 class="cs-member_name">LUZEMBA NKANU DIEU MERCI</h2>
+                <h2 class="cs-member_name">{{ config('app.founder') }}</h2>
                 <div class="cs-member_designation">{{ __('home.president') }} <br>{{ __('home.general_manager') }} </div>
             </div>
         </div>
