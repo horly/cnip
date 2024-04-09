@@ -38,8 +38,9 @@
               <li><a href="{{ route('app_about') }}">{{ __('home.about_us') }}</a></li>
               <li><a href="{{ route('app_projects') }}">{{ __('home.projects') }}</a></li>
               <li><a href="{{ route('app_team') }}">{{ __('home.team') }}</a></li>
-              <li><a href="#">{{ __('home.privacy_policy') }}</a></li>
-              <li><a href="#">{{ __('home.terms') }}</a></li>
+              <li><a href="{{ route('app_privacy_policy') }}">{{ __('home.privacy_policy') }}</a></li>
+              {{-- <li><a href="{{ route('app_terms') }}">{{ __('home.terms') }}</a></li> --}}
+              
             </ul>
           </div>
         </div><!-- .col -->

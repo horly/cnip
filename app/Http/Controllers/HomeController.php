@@ -94,4 +94,14 @@ class HomeController extends Controller
     {
         return view('home.team');
     }
+
+    public function privacyPolicy()
+    {
+        return view('home.privacy_policy');
+    }
+
+    public function terms()
+    {
+        return view('home.terms');
+    }
 }

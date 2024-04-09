@@ -33,6 +33,8 @@ Route::controller(HomeController::class)->group(function(){
     Route::get('/about', 'about')->name('app_about');
     Route::get('/projects', 'projects')->name('app_projects');
     Route::get('/team', 'team')->name('app_team');
+    Route::get('/privacy_policy', 'privacyPolicy')->name('app_privacy_policy');
+    Route::get('/terms', 'terms')->name('app_terms');
 
     Route::prefix('sectors')->group(function(){
         Route::get('/agriculture', 'agriculture')->name('app_agriculture');
