@@ -46,11 +46,7 @@
                 </h2>
                 <div>
                     <p> 
-                        <b>{{ config('app.old_name') }}</b> {{ __('home.was_founded_in_2016_by') }} <b>{{ config('app.founder') }}</b>.
-                        {{ __('home.after_a_while_the_business_will_come') }} <b>{{ config('app.name') }}</b>.
-                    </p>
-
-                    <p>
+                        {{ __('home.founded_in_2016') }}, {{ __('home.the') }} <b>{{ config('app.name') }}</b> 
                         {{ __('home.we_are_a_company_under_congolese_law') }}. {{ __('home.we_we_are_passionate_innovation') }}.
                     </p>
 

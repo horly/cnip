@@ -195,8 +195,10 @@ return [
     'our' => "Our",
     'story' => "Story",
     'was_founded_in_2016_by' => "was founded in 2016 by",
+    'was_founded_in_2016' => "was founded in 2016",
+    'founded_in_2016' => "Founded in 2016",
     'after_a_while_the_business_will_come' => "After a while, the business will eventually become",
-    'we_are_a_company_under_congolese_law' => "We are a company under Congolese law, having the legal form of a SARL, made of scientific and professional interculturality",
+    'we_are_a_company_under_congolese_law' => "is a company under Congolese law, having the legal form of a SARL, made of scientific and professional interculturality",
     'we_we_are_passionate_innovation' => "We are a passionate, innovation-driven and determined company to make a difference",
     'our_economic_model_is_based_on_a_network' => "Our economic model is based on a network of partners in terms of local and international with whom we work on several areas",
     'our_concept_is_based_on_alliance' => "Our concept is based on alliance between tradition and innovation, creating thus a unique synergy",
@@ -253,5 +255,14 @@ return [
     'article' => "Article",
     'object' => "Object",
     'the_purpose_of_these_general_condition' => "The purpose of these General Conditions of Use (CGU) is to define the rules and conditions applicable to the use of the website",
-    
+    'the' => "the",
+
+    'purchase_sales_rental_house'  => "Purchase, sale and rental of land, building, plot and concession",
+    'purchase_location_house' => "Purchase, sale and rental of agricultural operations",
+    'renovation_and_construction' => "Renovation and construction",
+    'medical_travel_for_health' => "Medical travel for health care through its project “Health Care” in the best Hospitals in the Kingdom of Morocco",
+    'printing_of_license_plates' => "Printing of license plates",
+    'motorcycle_technical_inspection' => "Motorcycle technical inspection and motorcycle pink cards",
+    'printing_traffic_signs' => "Printing traffic signs",
+    'sign_design_and_printing' => "Sign design and printing",
 ];

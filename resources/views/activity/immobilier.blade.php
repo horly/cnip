@@ -19,8 +19,9 @@
                   <h4 class="m-0 cs-bold">{{ __('home.our_services') }} :</h4>
                     <br>
                   <ul>
-                    <li><span class="cs-medium cs-accent_color">{{ __('home.sale_of_houses_and_land') }} </span></li>
-                    <li><span class="cs-medium cs-accent_color">{{ __('home.rental_of_houses_and_apartments') }} </span></li>
+                    <li><span class="cs-medium cs-accent_color">{{ __('home.purchase_sales_rental_house') }} </span></li>
+                    <li><span class="cs-medium cs-accent_color">{{ __('home.purchase_location_house') }} </span></li>
+                    <li><span class="cs-medium cs-accent_color">{{ __('home.renovation_and_construction') }} </span></li>
                     <li><span class="cs-medium cs-accent_color">{{ __('home.real_estate_expertise') }} </span></li>
                     <li><span class="cs-medium cs-accent_color">{{ __('home.rental_management') }} </span></li>
                   </ul>

@@ -60,7 +60,7 @@
                 </div>
                 <div class="cs-member_info">
                     <h2 class="cs-member_name">DON JOEL DIKOKO</h2><br>
-                    <div class="cs-member_designation">{{ __('home.administrator') }} <br>{{ __('home.deputy_general_director') }} </div>
+                    <div class="cs-member_designation">{{ __('home.deputy_general_director') }} </div>
                 </div>
             </div>
             <div class="cs-height_30 cs-height_lg_30"></div>
@@ -82,7 +82,7 @@
                 </div>
                 <div class="cs-member_info">
                     <h2 class="cs-member_name">SAMBA CORNEILLE</h2> <br>
-                    <div class="cs-member_designation">{{ __('home.administrator') }} <br>{{ __('home.director_of_operations') }} </div>
+                    <div class="cs-member_designation">{{ __('home.director_of_operations') }} </div>
                 </div>
             </div>
             <div class="cs-height_30 cs-height_lg_30"></div>

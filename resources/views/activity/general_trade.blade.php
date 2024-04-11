@@ -27,7 +27,11 @@
                     <li><span class="cs-medium cs-accent_color">{{ __('home.logistics_and_transport_services') }} </span></li> 
                     <li><span class="cs-medium cs-accent_color">{{ __('home.delivery_of_filters') }} </span></li> 
                     <li><span class="cs-medium cs-accent_color">{{ __('home.electrical_equipment') }} </span></li> 
-                    <li><span class="cs-medium cs-accent_color">{{ __('home.tires_for_all_types_of_vehicles') }} </span></li>
+                    <li><span class="cs-medium cs-accent_color">{{ __('home.tires_for_all_types_of_vehicles') }} </span></li> 
+                    <li><span class="cs-medium cs-accent_color">{{ __('home.printing_of_license_plates') }} </span></li>
+                    <li><span class="cs-medium cs-accent_color">{{ __('home.motorcycle_technical_inspection') }} </span></li> 
+                    <li><span class="cs-medium cs-accent_color">{{ __('home.printing_traffic_signs') }} </span></li>
+                    <li><span class="cs-medium cs-accent_color">{{ __('home.sign_design_and_printing') }} </span></li>
                   </ul>
 
                   <h4 class="m-0 cs-bold">{{ __('home.customer_base') }} :</h4>

@@ -19,11 +19,12 @@
                   <h4 class="m-0 cs-bold">{{ __('home.our_services') }} :</h4>
                     <br>
                   <ul>
-                    <li><span class="cs-medium cs-accent_color">{{ __('home.personalized_advice') }} </span></li>
+                    <li><span class="cs-medium cs-accent_color">{{ __('home.personalized_advice') }} </span></li> 
                     <li><span class="cs-medium cs-accent_color">{{ __('home.creation_of_the_file') }} </span></li>
                     <li><span class="cs-medium cs-accent_color">{{ __('home.managing_the_project') }} </span></li>
                     <li><span class="cs-medium cs-accent_color">{{ __('home.support_for_administrative_procedures') }} </span></li>
                     <li><span class="cs-medium cs-accent_color">{{ __('home.emergency_service') }} </span></li>
+                    <li><span class="cs-medium cs-accent_color">{{ __('home.medical_travel_for_health') }} </span></li>
                   </ul>
 
                   <h4 class="m-0 cs-bold">{{ __('home.customer_base') }} :</h4>

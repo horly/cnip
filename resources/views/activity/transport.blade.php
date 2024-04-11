@@ -30,7 +30,8 @@
                   <ul>
                     <li><span class="cs-medium cs-accent_color">{{ __('home.new_and_used_vehicles') }} </span></li>
                     <li><span class="cs-medium cs-accent_color">{{ __('home.wide_choice_of_brands_and_models') }} </span></li>
-                    <li><span class="cs-medium cs-accent_color">{{ __('home.financing_and_leasing') }} </span></li>
+                    {{--<li><span class="cs-medium cs-accent_color">{{ __('home.financing_and_leasing') }} </span></li>--}}
+                    
                   </ul>
 
                   <h4 class="m-0 cs-bold">{{ __('home.vehicles_rental') }} :</h4>
