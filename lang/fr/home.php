@@ -16,7 +16,7 @@ return [
     'partner' => "partenaire",
     'sustainable' => "pour un avenir",
     'and_prosperous_future' => "durable et prospère",
-    
+
     'our_services' => "Nos services",
     'our_main_sectors_of' => "Nos principaux secteurs",
     'activity' => "d'activités",
@@ -264,4 +264,6 @@ return [
     'motorcycle_technical_inspection' => "Contrôle technique moto et cartes roses moto",
     'printing_traffic_signs' => "Impression des panneaux de signalisation",
     'sign_design_and_printing' => "Conception et impression de panonceaux",
+    'we_are_proud_of_our_talented' => "Nous sommes fiers de notre équipe talentueuse et dévouée. Chaque membre de notre équipe apporte ses compétences et son expérience uniques à la table, ce qui nous permet d'offrir à nos clients le meilleur service possible",
+    'official_ceremony' => "Cérémonie officielle de la présentation de la documentation à l'autorité financière du parlement congolais et  d'agrément de fournisseur et de consultance du GROUPE CNIP COMPANY  à l'assemblée nationale congolaise",
 ];
