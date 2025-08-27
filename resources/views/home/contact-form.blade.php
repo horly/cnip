@@ -68,7 +68,7 @@
                   <button type="button" id="send-message" class="cs-btn cs-style6 cs-rounded text-uppercase cs-medium cs-accent_border cs-accent_bg cs-white cs-accent_10_bg_hover cs-accent_40_border_hover cs-accent_color_hover">
                     <span class="cs-btn_text">{{ __('home.send_message') }}</span>
                   </button>
-                  
+
                   <button type="button" id="send-message-loading" class="cs-btn cs-style6 cs-rounded text-uppercase cs-medium cs-accent_border cs-accent_bg cs-white cs-accent_10_bg_hover cs-accent_40_border_hover cs-accent_color_hover d-none">
                     <div class="p-2">
                       <span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span>&nbsp;&nbsp;{{ __('home.sending') }}...
@@ -77,7 +77,7 @@
                 </div>
             </div>
             <br>
-            
+
             @include('alert.alert')
 
           </form>

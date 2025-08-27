@@ -16,7 +16,7 @@ return [
     'partner' => "partenaire",
     'sustainable' => "pour un avenir",
     'and_prosperous_future' => "durable et prospère",
-    
+
     'our_services' => "Nos services",
     'our_main_sectors_of' => "Nos principaux secteurs",
     'activity' => "d'activités",

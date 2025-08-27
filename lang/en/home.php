@@ -8,7 +8,7 @@ return [
     'transportation' => "Transportation",
     'travel_and_tourism' => "Travel and tourism",
     'general_trade' => "General trade",
-    'real_estate' => "Real estate", 
+    'real_estate' => "Real estate",
     'sectors' => "Sectors",
 
     'multi_sector_company' => "Multi-sector company",
@@ -118,7 +118,7 @@ return [
     'view_all' => "View All",
     'official_delivery_of_a_sample' => "Official delivery of a sample of the sign in which we were participants in the project initiated by the Ministry of Tourism where we had the privilege of being the technical production part.",
     'extract_from_delivery_of_electrical_cables' => "Extract from delivery of electrical cables",
-    
+
     'electronic_cable_delivery_extract' => "Electronic cable delivery extract",
     'filter_package_delivery_extract' => "Filter package delivery extract",
     'sign_production' => "Sign production",
@@ -189,7 +189,7 @@ return [
     'electrical_equipment' => "Electrical equipment, cables and accessories.",
     'tires_for_all_types_of_vehicles' => "Tires for all types of vehicles.",
     'cables_filters_tires' => "Cables, Filters, Tires",
-    
+
     'us' => "Us",
     'who_are_we' => "Who are we",
     'our' => "Our",

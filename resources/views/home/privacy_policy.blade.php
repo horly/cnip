@@ -57,7 +57,7 @@
             <p>
                 {{ __('home.if_you_have_any_questions_about') }} <b class="cs-medium cs-accent_color">{{ config('app.email') }}</b>.
             </p>
-    
+
         </div>
         <div class="cs-height_110 cs-height_lg_50"></div>
       </div>

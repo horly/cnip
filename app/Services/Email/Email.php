@@ -19,14 +19,14 @@ class Email
 
     function __construct()
     {
-        $this->app_name = config('app.name'); 
+        $this->app_name = config('app.name');
         $this->username = config('app.mail_username');
 
         $this->mail = new PHPMailer;
         $this->mail->isSMTP();
         $this->mail->SMTPDebug = 0; //pas d'afficahe de debug mais si nous voulons afficher les erreurs il faut le mettre à 2
-        $this->mail->Port = config('app.mail_port'); 
-        $this->mail->Host = config('app.mail_host'); 
+        $this->mail->Port = config('app.mail_port');
+        $this->mail->Host = config('app.mail_host');
         $this->mail->SMTPAuth = true;
         $this->mail->Username = $this->username;
         $this->mail->Password = config('app.mail_password');
