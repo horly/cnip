@@ -256,7 +256,7 @@ return [
     'object' => "Objet",
     'the_purpose_of_these_general_condition' => "Les présentes Conditions Générales d'Utilisation (CGU) ont pour objet de définir les règles et conditions applicables à l'utilisation du site web",
     'the' => "le",
-    'purchase_sales_rental_house'  => "Achat, Vente et location terrain, immeuble, parcelle et concession",
+    'purchase_sales_rental_house' => "Achat, Vente et location terrain, immeuble, parcelle et concession",
     'purchase_location_house' => "Achat, vente et location des exploitations agricoles",
     'renovation_and_construction' => "Rénovation et construction",
     'medical_travel_for_health' => "Le voyage médical pour de soins de santé à travers son projet “Health Care” dans les meilleurs Hôpitaux du Royaume du Maroc",
@@ -264,9 +264,6 @@ return [
     'motorcycle_technical_inspection' => "Contrôle technique moto et cartes roses moto",
     'printing_traffic_signs' => "Impression des panneaux de signalisation",
     'sign_design_and_printing' => "Conception et impression de panonceaux",
-<<<<<<< HEAD
-=======
     'we_are_proud_of_our_talented' => "Nous sommes fiers de notre équipe talentueuse et dévouée. Chaque membre de notre équipe apporte ses compétences et son expérience uniques à la table, ce qui nous permet d'offrir à nos clients le meilleur service possible",
     'official_ceremony' => "Cérémonie officielle de la présentation de la documentation à l'autorité financière du parlement congolais et  d'agrément de fournisseur et de consultance du GROUPE CNIP COMPANY  à l'assemblée nationale congolaise",
->>>>>>> b8620f72c6cb6660c7be8be2177d9b19d4803071
 ];

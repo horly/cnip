@@ -257,7 +257,7 @@ return [
     'the_purpose_of_these_general_condition' => "The purpose of these General Conditions of Use (CGU) is to define the rules and conditions applicable to the use of the website",
     'the' => "the",
 
-    'purchase_sales_rental_house'  => "Purchase, sale and rental of land, building, plot and concession",
+    'purchase_sales_rental_house' => "Purchase, sale and rental of land, building, plot and concession",
     'purchase_location_house' => "Purchase, sale and rental of agricultural operations",
     'renovation_and_construction' => "Renovation and construction",
     'medical_travel_for_health' => "Medical travel for health care through its project “Health Care” in the best Hospitals in the Kingdom of Morocco",
@@ -265,9 +265,6 @@ return [
     'motorcycle_technical_inspection' => "Motorcycle technical inspection and motorcycle pink cards",
     'printing_traffic_signs' => "Printing traffic signs",
     'sign_design_and_printing' => "Sign design and printing",
-<<<<<<< HEAD
-=======
     'we_are_proud_of_our_talented' => "We are proud of our talented and dedicated team. Each member of our team brings their unique skills and experience to the table, which allows us to provide our clients with the best possible service",
     'official_ceremony' => "Official ceremony for the presentation of documentation to the financial authority of the Congolese parliament and supplier and consultancy approval of the CNIP COMPANY GROUP to the Congolese national assembly",
->>>>>>> b8620f72c6cb6660c7be8be2177d9b19d4803071
 ];
